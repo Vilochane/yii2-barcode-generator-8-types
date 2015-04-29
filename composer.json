@@ -1,8 +1,8 @@
 {
     "name": "vilochane/yii2-barcode-generator",
-    "description": "This extension based on "Simple jQuery Based Barcode Generator" Wrapper for BarCode Code Library (BCC Library Version 2.0) by DEMONTE Jean-Baptiste, HOUREZ Jonathan.",
+    "description": "This extension based on "Simple jQuery Based Barcode Generator" Wrapper for BarCode Coder Library (BCC Library Version 2.0) by DEMONTE Jean-Baptiste, HOUREZ Jonathan.",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension"," barcode-generator"," barcode-generator-8types"],
+    "keywords": ["yii2","extension"," barcode-generator"," barcode-generator-8-types"],
     "license": "MIT",
     "authors": [
         {
@@ -18,4 +18,10 @@
             "barcode\\barcode\\": ""
         }
     }
+    "repositories":[
+    {
+        "type": "git",
+        "url": "https://path.to/your/repo"
+    }
+]
 }
