@@ -30,7 +30,6 @@ class BarcodeGeneratorAssets extends yii\web\AssetBundle {
      */
     public function init() {
         $this->setSourcePath(__DIR__ . '/assets');
-        $this->setupAssets('js', ['js/jquery.maskMoney']);
         parent::init();
     }
 
