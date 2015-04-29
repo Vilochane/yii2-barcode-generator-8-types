@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 barcode-generator-8types
 ========================
 This extension based on "Simple jQuery Based Barcode Generator" Wrapper for BarCode Code Library (BCC Library Version 2.0) by DEMONTE Jean-Baptiste, HOUREZ Jonathan.
@@ -29,9 +28,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \\barcode\barcode\\AutoloadExample::widget(); ?>```
-=======
-# yii2-barcode-generator-8-types
-This extension based on "Simple jQuery Based Barcode Generator" Wrapper for BarCode Coder Library (BCC Library Version 2.0) by DEMONTE Jean-Baptiste, HOUREZ Jonathan.
-First File
->>>>>>> 1d84f0bce1b2435057201083267679793c040169
+<?= \barcode\barcode\\AutoloadExample::widget(); ?>```

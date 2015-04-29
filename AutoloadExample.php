@@ -1,6 +1,6 @@
 <?php
 
-namespace \barcode\barcode\;
+namespace barcode\barcode\;
 
 /**
  * This is just an example.
