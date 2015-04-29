@@ -21,7 +21,7 @@
     "repositories":[
     {
         "type": "git",
-        "url": "https://path.to/your/repo"
+        "url": "https://github.com/Vilochane/yii2-barcode-generator-8-types.git"
     }
 ]
 }
