@@ -18,7 +18,6 @@
  * @link yii http://www.yiiframework.com/forum/index.php/user/223499-vilo/
  */
 namespace barcode\barcode;
-
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\helpers\Html;
@@ -100,7 +99,7 @@ class BarcodeGenerator extends \yii\base\Widget {
                           }"
                 . "$initBarcode"
                 . "";
-        echo CHtml::tag('div', array('id' => $this->elementId));
+        //echo Html::tag('div', array('id' => $this->elementId));
         return $js;
     }
 

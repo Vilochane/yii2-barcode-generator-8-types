@@ -21,15 +21,18 @@
  */
 
 namespace yii\widgets;
+
 use yii\web\AssetBundle;
 
-class BarcodeGeneratorAssets extends yii\web\AssetBundle {
+class BarcodeGeneratorAssets extends AssetBundle {
 
     /**
      * @inherit doc
      */
     public function init() {
-        $this->setSourcePath(__DIR__ . '/assets');
+        $this->sourcePath = __DIR__ . '/assets';
+        $this->js = ['jquery-barcode.min.js'];
+        $this->depends = ['yii\web\YiiAsset' ];
         parent::init();
     }
 
