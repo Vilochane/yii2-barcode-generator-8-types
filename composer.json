@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "barcode\\barcode\\": "*"
+            "barcode\\barcode\\": ""
         }
     },
     "repositories":[
