@@ -26,7 +26,7 @@ use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
 use yii\web\JsExpression;
 use yii\web\View;
-
+use yii\widgets\BarcodeGeneratorAssets as BarcodeGeneratorAssets;
 class BarcodeGenerator extends \yii\base\Widget {
 
     public $elementId; /* <div id="barcodeTarget" class="barcodeTarget"></div> OR <canvas id="canvasTarget" width="150" height="150"></canvas> */
@@ -109,7 +109,7 @@ class BarcodeGenerator extends \yii\base\Widget {
      */
     public function registerAssets() {
         $view = $this->getView();
-        BarcodeGenerator::register($view);
+        BarcodeGeneratorAssets::register($view);
         $js = $this->setBarCode();
         $view->registerJs($js);
     }
