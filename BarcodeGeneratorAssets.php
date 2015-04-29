@@ -20,7 +20,7 @@
  * @link yii http://www.yiiframework.com/forum/index.php/user/223499-vilo/
  */
 
-namespace yii\widgets;
+namespace barcode\barcode;
 
 use yii\web\AssetBundle;
 
