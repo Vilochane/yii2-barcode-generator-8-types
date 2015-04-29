@@ -11,7 +11,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "license": "dual licence :  http://www.cecill.info/licences/Licence_CeCILL_V2-fr.html, http://www.gnu.org/licenses/gpl.html",
+    "license": "MIT",
     "require": {
          "vilochane/yii2-barcode-generator": "*"
     },
