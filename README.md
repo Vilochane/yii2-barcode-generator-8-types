@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist vilochane/yii2-barcode-generator "*"
+php composer.phar require vilochane/yii2-barcode-generator: dev-master
 ```
 
 or add
