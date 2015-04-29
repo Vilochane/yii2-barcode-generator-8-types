@@ -1,18 +1,32 @@
 <?php
-
+/**
+ * Wrapper  for BarCode Coder Library (BCC Library)
+ *  BCCL Version 2.0
+ *    
+ *  Porting : jQuery barcode plugin 
+ *  Version : 2.0.3
+ *   
+ *  Date    : 2013-01-06
+ *  Author  : DEMONTE Jean-Baptiste <jbdemonte@gmail.com>
+ *            HOUREZ Jonathan
+ *             
+ *  Web site: http://barcode-coder.com/
+ *  dual licence :  http://www.cecill.info/licences/Licence_CeCILL_V2-fr.html
+ *                  http://www.gnu.org/licenses/gpl.html * 
+ * @author Vilochane <vilochane@gmail.com>
+ * @link GitHub https://github.com/Vilochane
+ * @link yii http://www.yiiframework.com/forum/index.php/user/223499-vilo/
+ */
 namespace barcode\barcode;
 
 use Yii;
-use yii\base\InvalidConfigException as InvalidConfigException;
-use yii\helpers\Html as Html;
-use yii\helpers\Json as Json;
-use yii\helpers\ArrayHelper as ArrayHelper;
-use yii\web\JsExpression as JsExpression;
-use yii\web\View as View;
+use yii\base\InvalidConfigException;
+use yii\helpers\Html;
+use yii\helpers\ArrayHelper;
+use yii\helpers\Json;
+use yii\web\JsExpression;
+use yii\web\View;
 
-/**
- * This is just an example.
- */
 class BarcodeGenerator extends \yii\base\Widget {
 
     public $elementId; /* <div id="barcodeTarget" class="barcodeTarget"></div> OR <canvas id="canvasTarget" width="150" height="150"></canvas> */
