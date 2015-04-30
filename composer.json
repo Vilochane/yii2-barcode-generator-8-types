@@ -4,6 +4,7 @@
     "type": "yii2-extension",
     "keywords": ["yii2","extension"," barcode-generator"," barcode-generator-8-types"],    
     "homepage":"https://github.com/Vilochane/yii2-barcode-generator-8-types.git",
+    "license": "MIT",
     "authors": [
         {
             "name": "Vilochane",
@@ -11,8 +12,7 @@
             "GitHub":"https://github.com/Vilochane/"
         }
     ],
-    "minimum-stability": "stable",
-    "license": "MIT",
+    "minimum-stability": "stable",    
     "require": {
          "vilochane/yii2-barcode-generator": "*"
     },
