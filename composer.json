@@ -20,11 +20,6 @@
         "psr-4": {
             "barcode\\barcode\\": ""
         }
-    },
-    "repositories":[
-    {
-        "type": "git",
-        "url": "https://github.com/Vilochane/yii2-barcode-generator-8-types.git"
     }
-]
+    
 }
