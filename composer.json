@@ -12,10 +12,7 @@
             "GitHub":"https://github.com/Vilochane/"
         }
     ],
-    "minimum-stability": "stable",    
-    "require": {
-        "vilochane/yii2-barcode-generator": "*"         
-    },
+    "minimum-stability": "stable",        ,
     "autoload": {
         "psr-4": {
             "barcode\\barcode\\": ""
