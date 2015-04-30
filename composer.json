@@ -12,7 +12,7 @@
             "GitHub":"https://github.com/Vilochane/"
         }
     ],
-    "minimum-stability": "stable",        ,
+    "minimum-stability": "stable", 
     "autoload": {
         "psr-4": {
             "barcode\\barcode\\": ""
