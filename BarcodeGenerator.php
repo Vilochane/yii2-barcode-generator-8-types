@@ -80,15 +80,15 @@ class BarcodeGenerator extends \yii\base\Widget {
             $value = "{code: $this->value, rect: true}";
         }
         if ($output === 'canvas') {
-            $initBarcode = 'clearCanvas(); $("#' . $this->elementId . '").show().barcode(value, type, settings);';
+            $initBarcode = 'clearCanvas(); jQuery("#' . $this->elementId . '").show().barcode(value, type, settings);';
         } else {
-            $initBarcode = '$("#' . $this->elementId . '").html("").show().barcode(value, type, settings);';
+            $initBarcode = 'jQuery("#' . $this->elementId . '").html("").show().barcode(value, type, settings);';
         }
         $js = "  var value = '$value';"
                 . "var type = '$this->type';"
                 . "var settings = $settings;"
                 . "      function clearCanvas(){
-                            var canvas = $('#" . $this->elementId . "').get(0);
+                            var canvas = jQuery('#" . $this->elementId . "').get(0);
                             var ctx = canvas.getContext('2d');
                             ctx.lineWidth = 1;
                             ctx.lineCap = 'butt';
